@@ -29,5 +29,6 @@ jobs:
         AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
       run: |
         pip install awsebcli
-        eb init -p python-3.8 --region ${{ secrets.AWS_REGION }}
-        eb deploy
+        pip install --upgrade boto3
+        eb init -p python-3.10 --region ${{ secrets.AWS_REGION }}
+        eb deploy Elastic Beanstalk
