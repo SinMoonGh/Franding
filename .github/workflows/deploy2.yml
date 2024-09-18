@@ -30,5 +30,5 @@ jobs:
       run: |
         pip install awsebcli
         pip install --upgrade boto3
-        eb init -p python-3.10 --region ${{ secrets.AWS_REGION }}
+        eb init -p python-3.8 --region ${{ secrets.AWS_REGION }}
         eb deploy Elastic Beanstalk
