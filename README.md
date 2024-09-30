@@ -2,6 +2,8 @@
 franding ( perfume e-commerce )
 - 참여 인원 : 5명
 - 프로젝트 기간 : 2024.04 ~ 2024.06
+- [1차 ppt](https://docs.google.com/presentation/d/1CySDPxnNa83a4V2ppZaE6oWlMhOqoC59NOcgPnj-CbE/edit?usp=sharing)
+- [2차 ppt](https://docs.google.com/presentation/d/1htPbCfCzKtB7ys21xPsmofA98Etv3MP1F0r96MqFcvg/edit?usp=sharing)
 
 ![franding](static/img/logo-2.png "franding logo")
 
@@ -13,6 +15,9 @@ franding ( perfume e-commerce )
 
 - [프로젝트 개요](#프로젝트-개요)
 - [개발 필요성](#개발-필요성)
+- [아키텍처 설계](#아키텍처-설계)
+- [데이터베이스 설계](#데이터베이스-설계)
+- [화면 설계](#화면-설계)
 - [구현 기능](#구현-기능)
 
 ## 프로젝트 개요
@@ -21,8 +26,19 @@ Franding은 '향수(Fragrance)'와 '브랜딩(Branding) yourself'의 결합으�
 
 ## 개발 필요성
 
-- 향수의 대중화 : 향에 대한 어려운 정보 대신, 직관적인 이미지를 사용하여 사용자 맞춤형 서비스를 제공하여 향수 입문자들이 향수에 쉽게 다가갈 수 있도록 한다.
-- 개인 브랜딩 : 개인 이미지 브랜딩을 위한 향수 선택의 폭을 제공하는 플랫폼이 필요하다.
+- 향수의 대중화 : 향에 대한 어려운 정보 대신, 직관적인 이미지를 사용하고, 사용자 맞춤 향수 추천 서비스를 제공하여 향수 입문자들이 향수에 쉽게 다가갈 수 있도록 만들어 주는 서비스가 필요하다고 생각했습니다.
+- 개인 브랜딩 : 개인 이미지 브랜딩을 위한 향수 선택의 폭을 제공하는 플랫폼이 필요하다고 생각했습니다.
+
+## 아키텍처 설계
+![franding](static/img/아키텍처.png)
+
+## 데이터베이스 설계
+![franding](static/img/DB.png)
+
+## 화면 설계
+[1차 화면 설계](https://docs.google.com/presentation/d/17DuMx-zyVgrDCsx-ZuCPI8OtgU_Csh2_zeA4mnwuTFs/edit?usp=sharing)
+
+[2차 화면 설계](https://www.figma.com/board/RHJVdE4kihHfqy3rwsGZu3/Untitled?node-id=0-1&t=p2ARZr5nDjnMj4zH-1)
 
 ## 구현 기능
 
